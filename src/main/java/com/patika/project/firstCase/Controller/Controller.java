@@ -61,26 +61,4 @@ public class Controller {
 	public List<Products> getAllProductByNotExpirationDate(){
 		return repositoryService.getAllProductByNotExpirationDate();
 	}
-	
-	/*
-	@PostMapping("/add")
-	public void add(@RequestBody City city) {
-		repositoryService.add(city);
-	}
-	
-	@PostMapping("/update")
-	public void update(@RequestBody City city) {
-		repositoryService.update(city);
-	}
-	
-	@PostMapping("/delete")
-	public void delete(@RequestBody City city) {
-		repositoryService.delete(city);
-	}
-	
-	@GetMapping("/cities/{id}")
-	public City getById(@PathVariable int id){
-		return repositoryService.getById(id);
-	}
-	*/
 }
