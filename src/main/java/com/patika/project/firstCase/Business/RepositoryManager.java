@@ -55,42 +55,4 @@ public class RepositoryManager implements IRepositoryService {
 		
 		return repositoryDal.getAllProductByNotExpirationDate();
 	}
-	
-	/*
-	@Override
-	@Transactional
-	public List<City> getAll() {
-		
-		return this.repositoryDal.getAll();
-	}
-
-	@Override
-	@Transactional
-	public void add(City city) {
-		//city önceden var mı / şartlar sağlanıyor mu
-		this.repositoryDal.add(city);
-		
-	}
-
-	@Override
-	@Transactional
-	public void update(City city) {
-		this.repositoryDal.update(city);
-		
-	}
-
-	@Override
-	@Transactional
-	public void delete(City city) {
-		this.repositoryDal.delete(city);
-		
-	}
-
-	@Override
-	public City getById(int id) {
-		// TODO Auto-generated method stub
-		return this.repositoryDal.getById(id);
-	}
-	*/
-
 }
